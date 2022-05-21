@@ -44,11 +44,3 @@ process.on('exit', () => {
 
 
 
-
-//! ВЕШАТЬ СЛУШАТЕЛЬ ЧЕРЕЗ SWITCH????
-//ToDoo реадизовать обработку событий через switch
-//ToDoo     process.on('exit', (code) => {
-//ToDoo //  console.log(`About to exit with code: ${code}`);
-//ToDoo //  });
-//ToDoo НАПИСАТЬ EVENTHADLER  ДЛЯ  ОБРАБОТКИ СОБЫТЬТТИЯ  EXIT B CTR+C ДЛЯ ЗАКРЫТИ Я ПОТОКА ЧТЕНИЯ
-//ToDoo (ТИП НАПИСАТЬ СВОЙ ИВЕНТ С КОЛБЭКОМ НА ЗАКРЫТИЕ СТРАНИЦЫ)
